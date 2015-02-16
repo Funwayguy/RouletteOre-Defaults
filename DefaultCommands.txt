@@ -4,11 +4,6 @@
 /summon Creeper ~ ~ ~ {powered:1,CustomName:"Roulette Creeper",ExplosionRadius:0}
 /summon Creeper ~ ~ ~ {powered:1,CustomName:"Roulette Creeper",ExplosionRadius:0}
 /summon Creeper ~ ~ ~ {powered:1,CustomName:"Roulette Creeper",ExplosionRadius:0}
-/summon Creeper ~ ~ ~ {powered:1,CustomName:"Roulette Creeper",ExplosionRadius:0}
-/summon Creeper ~ ~ ~ {powered:1,CustomName:"Roulette Creeper",ExplosionRadius:0}
-/summon Creeper ~ ~ ~ {powered:1,CustomName:"Roulette Creeper",ExplosionRadius:0}
-/summon Creeper ~ ~ ~ {powered:1,CustomName:"Roulette Creeper",ExplosionRadius:0}
-/summon Creeper ~ ~ ~ {powered:1,CustomName:"Roulette Creeper",ExplosionRadius:0}
 /summon Creeper ~ ~ ~ {powered:1,CustomName:"Roulette Creeper",ExplosionRadius:16}
 /summon PrimedTnt ~ ~ ~ {Fuse:380,Riding:{id:XPOrb}}
 /setblock ~ ~ ~ minecraft:bedrock
