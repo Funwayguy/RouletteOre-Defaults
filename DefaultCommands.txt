@@ -7,7 +7,18 @@
 /summon Creeper ~ ~ ~ {powered:1,CustomName:"Roulette Creeper",ExplosionRadius:16}
 /summon PrimedTnt ~ ~ ~ {Fuse:380,Riding:{id:XPOrb}}
 /setblock ~ ~ ~ minecraft:bedrock
+/summon Item ~ ~ ~ {Item:{id:263,Count:1}}
 /summon Item ~ ~ ~ {Item:{id:264,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:265,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:266,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:289,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:318,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:331,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:351,Count:1,Damage:4}}
+/summon Item ~ ~ ~ {Item:{id:352,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:371,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:388,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:406,Count:1}}
 /summon Silverfish ~ ~ ~ {CustomName:"Troll Fish",CustomNameVisible:10,ActiveEffects:[{Id:11,Amplifier:10,Duration:300}]}
 /summon ThrownPotion ~ ~ ~ {Riding:{CustomName:"Poison Fish",CustomNameVisible:10,id:Silverfish},Potion:{id:373,Count:1,Damage:16388}}
 /summon ThrownPotion ~ ~ ~ {Riding:{CustomName:"Death Fish",CustomNameVisible:10,id:Silverfish},Potion:{id:373,Count:1,Damage:16428}}
