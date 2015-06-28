@@ -12,12 +12,32 @@
 /summon Item ~ ~ ~ {Item:{id:266,Count:1}}
 /summon Item ~ ~ ~ {Item:{id:289,Count:1}}
 /summon Item ~ ~ ~ {Item:{id:318,Count:1}}
-/summon Item ~ ~ ~ {Item:{id:331,Count:1}}
-/summon Item ~ ~ ~ {Item:{id:351,Count:1,Damage:4}}
+/summon Item ~ ~ ~ {Item:{id:331,Count:8}}
+/summon Item ~ ~ ~ {Item:{id:351,Count:8,Damage:4}}
 /summon Item ~ ~ ~ {Item:{id:352,Count:1}}
 /summon Item ~ ~ ~ {Item:{id:371,Count:1}}
 /summon Item ~ ~ ~ {Item:{id:388,Count:1}}
-/summon Item ~ ~ ~ {Item:{id:406,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:406,Count:4}}
+/summon Item ~ ~ ~ {Item:{id:357,Count:16}}
+/summon Item ~ ~ ~ {Item:{id:360,Count:8}}
+/summon Item ~ ~ ~ {Item:{id:364,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:366,Count:1,display:{Name:"Wall Chicken"}}}
+/summon Item ~ ~ ~ {Item:{id:367,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:369,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:369,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:370,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:372,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:375,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:377,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:381,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:381,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:399,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:396,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:391,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:392,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:2266,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:353,Count:1}}
+/summon Item ~ ~ ~ {Item:{id:374,Count:1}}
 /summon Silverfish ~ ~ ~ {CustomName:"Troll Fish",CustomNameVisible:10,ActiveEffects:[{Id:11,Amplifier:10,Duration:300}]}
 /summon Zombie ~ ~ ~ {CustomName:"Gary Coleman",IsBaby:1,CustomNameVisible:10}
 /summon Chicken ~ ~ ~ {CustomName:"Cluckington",CustomNameVisible:10}
