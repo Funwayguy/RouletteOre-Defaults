@@ -6,6 +6,7 @@
 /summon Creeper ~ ~ ~ {powered:1,CustomName:"Roulette Creeper",ExplosionRadius:16}
 /summon PrimedTnt ~ ~ ~ {Fuse:380,Riding:{id:XPOrb}}
 /setblock ~ ~ ~ minecraft:bedrock
+/setblock ~ ~ ~ rouletteores:roulette_ore
 /summon Item ~ ~ ~ {Item:{id:263,Count:1}}
 /summon Item ~ ~ ~ {Item:{id:264,Count:1}}
 /summon Item ~ ~ ~ {Item:{id:265,Count:1}}
