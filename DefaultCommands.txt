@@ -22,7 +22,7 @@
 /summon Item ~ ~ ~ {Item:{id:357,Count:16}}
 /summon Item ~ ~ ~ {Item:{id:360,Count:8}}
 /summon Item ~ ~ ~ {Item:{id:364,Count:1}}
-/summon Item ~ ~ ~ {Item:{id:366,Count:1,display:{Name:"Wall Chicken"}}}
+/summon Item ~ ~ ~ {Item:{id:366,Count:1,tag:{display:{Name:"Mysterious Wall Chicken"}}}}
 /summon Item ~ ~ ~ {Item:{id:367,Count:1}}
 /summon Item ~ ~ ~ {Item:{id:369,Count:1}}
 /summon Item ~ ~ ~ {Item:{id:369,Count:1}}
@@ -64,6 +64,8 @@
 /setblock ~ ~ ~ minecraft:fire
 /setblock ~ ~ ~ minecraft:web
 /setblock ~ ~ ~ minecraft:monster_egg
+/setblock ~ ~ ~ minecraft:tnt 1
+/setblock ~ ~ ~ minecraft:tnt 0
 /summon Item ~ ~ ~ {Item:{id:311,Count:1,tag:{AttributeModifiers:[{AttributeName:"generic.maxHealth",Name:"generic.maxHealth",Amount:6,Operation:0,UUIDLeast:894654,UUIDMost:2872}],display:{Name:Buff Chestplate},ench:[{id:0,lvl:3}]}}}
 /summon Item ~ ~ ~ {Item:{id:310,Count:1,tag:{AttributeModifiers:[{AttributeName:"generic.maxHealth",Name:"generic.maxHealth",Amount:4,Operation:0,UUIDLeast:894654,UUIDMost:2872}],display:{Name:Buff Helmet},ench:[{id:0,lvl:3}]}}}
 /summon Item ~ ~ ~ {Item:{id:312,Count:1,tag:{AttributeModifiers:[{AttributeName:"generic.maxHealth",Name:"generic.maxHealth",Amount:6,Operation:0,UUIDLeast:894654,UUIDMost:2872}],display:{Name:Buff Leggings},ench:[{id:0,lvl:3}]}}}
