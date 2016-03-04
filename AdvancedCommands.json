@@ -9,6 +9,85 @@
     ]
   },
   {
+    "name": "Think quick",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/tell VAR_NAME Ready..."
+      },
+      {
+        "delay": 40,
+        "command": "/tell VAR_NAME Set..."
+      },
+      {
+        "delay": 80,
+        "command": "/tell VAR_NAME DIG!"
+      },
+      {
+        "delay": 81,
+        "command": "/setblock ~ ~ ~ minecraft:diamond_block"
+      },
+      {
+        "delay": 160,
+        "command": "/setblock ~ ~ ~ minecraft:air"
+      },
+      {
+        "delay": 161,
+        "command": "/tell VAR_NAME Time's Up!"
+      }
+    ]
+  },
+  {
+    "name": "Think quick",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/tell VAR_NAME Ready..."
+      },
+      {
+        "delay": 40,
+        "command": "/tell VAR_NAME Set..."
+      },
+      {
+        "delay": 80,
+        "command": "/tell VAR_NAME DIG!"
+      },
+      {
+        "delay": 81,
+        "command": "/setblock ~ ~ ~ minecraft:emerald_block"
+      },
+      {
+        "delay": 160,
+        "command": "/setblock ~ ~ ~ minecraft:air"
+      },
+      {
+        "delay": 161,
+        "command": "/tell VAR_NAME Time's Up!"
+      }
+    ]
+  },
+  {
+    "name": "Think quick",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/tell VAR_NAME Ready..."
+      },
+      {
+        "delay": 40,
+        "command": "/tell VAR_NAME Set..."
+      },
+      {
+        "delay": 80,
+        "command": "/tell VAR_NAME NOPE!"
+      },
+      {
+        "delay": 81,
+        "command": "/summon EnderCrystal ~ ~ ~"
+      }
+    ]
+  },
+  {
     "name": "Roulette Creeper",
     "events": [
       {
@@ -77,6 +156,132 @@
       {
         "delay": 0,
         "command": "/setblock ~ ~ ~ rouletteores:roulette_ore"
+      }
+    ]
+  },
+  {
+    "name": "Gold Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:gold_block"
+      }
+    ]
+  },
+  {
+    "name": "Iron Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:iron_block"
+      }
+    ]
+  },
+  {
+    "name": "Diamond Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:diamond_block"
+      }
+    ]
+  },
+  {
+    "name": "Coal Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:coal_block"
+      }
+    ]
+  },
+  {
+    "name": "Redstone Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:redstone_block"
+      }
+    ]
+  },
+  {
+    "name": "Quartz Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:quartz_block"
+      }
+    ]
+  },
+  {
+    "name": "Emerald Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:Emerald_block"
+      }
+    ]
+  },
+  {
+    "name": "Slime Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:slime"
+      }
+    ]
+  },
+  {
+    "name": "Dragon Egg",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:dragon_block"
+      }
+    ]
+  },
+  {
+    "name": "Enchantment Table",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:enchanting_table"
+      }
+    ]
+  },
+  {
+    "name": "Beacon",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:beacon"
+      }
+    ]
+  },
+  {
+    "name": "Anvil",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:anvil"
+      }
+    ]
+  },
+  {
+    "name": "Brewing Stand",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:brewing_stand"
+      }
+    ]
+  },
+  {
+    "name": "Ender Chest",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:ender_chest"
       }
     ]
   },
@@ -464,6 +669,15 @@
       {
         "delay": 0,
         "command": "/setblock ~ ~ ~ minecraft:mob_spawner 0 replace {EntityId:Zombie}"
+      }
+    ]
+  },
+  {
+    "name": "Cave Spider Spawner",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:mob_spawner 0 replace {EntityId:CaveSpider}"
       }
     ]
   },

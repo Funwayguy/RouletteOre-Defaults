@@ -9,6 +9,85 @@
     ]
   },
   {
+    "name": "Think quick",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/tell VAR_NAME Ready..."
+      },
+      {
+        "delay": 40,
+        "command": "/tell VAR_NAME Set..."
+      },
+      {
+        "delay": 80,
+        "command": "/tell VAR_NAME DIG!"
+      },
+      {
+        "delay": 81,
+        "command": "/setblock ~ ~ ~ minecraft:diamond_block"
+      },
+      {
+        "delay": 160,
+        "command": "/setblock ~ ~ ~ minecraft:air"
+      },
+      {
+        "delay": 161,
+        "command": "/tell VAR_NAME Time's Up!"
+      }
+    ]
+  },
+  {
+    "name": "Think quick",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/tell VAR_NAME Ready..."
+      },
+      {
+        "delay": 40,
+        "command": "/tell VAR_NAME Set..."
+      },
+      {
+        "delay": 80,
+        "command": "/tell VAR_NAME DIG!"
+      },
+      {
+        "delay": 81,
+        "command": "/setblock ~ ~ ~ minecraft:emerald_block"
+      },
+      {
+        "delay": 160,
+        "command": "/setblock ~ ~ ~ minecraft:air"
+      },
+      {
+        "delay": 161,
+        "command": "/tell VAR_NAME Time's Up!"
+      }
+    ]
+  },
+  {
+    "name": "Think quick",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/tell VAR_NAME Ready..."
+      },
+      {
+        "delay": 40,
+        "command": "/tell VAR_NAME Set..."
+      },
+      {
+        "delay": 80,
+        "command": "/tell VAR_NAME NOPE!"
+      },
+      {
+        "delay": 81,
+        "command": "/summon EnderCrystal ~ ~ ~"
+      }
+    ]
+  },
+  {
     "name": "Roulette Creeper",
     "events": [
       {
@@ -81,11 +160,227 @@
     ]
   },
   {
-    "name": "Random Loot",
+    "name": "Gold Block",
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:coal,Count:1}}"
+        "command": "/setblock ~ ~ ~ minecraft:gold_block"
+      }
+    ]
+  },
+  {
+    "name": "Iron Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:iron_block"
+      }
+    ]
+  },
+  {
+    "name": "Diamond Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:diamond_block"
+      }
+    ]
+  },
+  {
+    "name": "Coal Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:coal_block"
+      }
+    ]
+  },
+  {
+    "name": "Redstone Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:redstone_block"
+      }
+    ]
+  },
+  {
+    "name": "Quartz Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:quartz_block"
+      }
+    ]
+  },
+  {
+    "name": "Emerald Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:Emerald_block"
+      }
+    ]
+  },
+  {
+    "name": "Slime Block",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:slime"
+      }
+    ]
+  },
+  {
+    "name": "Dragon Egg",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:dragon_block"
+      }
+    ]
+  },
+  {
+    "name": "Enchantment Table",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:enchanting_table"
+      }
+    ]
+  },
+  {
+    "name": "Beacon",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:beacon"
+      }
+    ]
+  },
+  {
+    "name": "Anvil",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:anvil"
+      }
+    ]
+  },
+  {
+    "name": "Brewing Stand",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:brewing_stand"
+      }
+    ]
+  },
+  {
+    "name": "Ender Chest",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:ender_chest"
+      }
+    ]
+  },
+  {
+    "name": "Sapling",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:sapling,Count:4,Damage:0}}"
+      }
+    ]
+  },
+  {
+    "name": "Sapling",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:sapling,Count:4,Damage:1}}"
+      }
+    ]
+  },
+  {
+    "name": "Sapling",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:sapling,Count:4,Damage:2}}"
+      }
+    ]
+  },
+  {
+    "name": "Sapling",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:sapling,Count:4,Damage:3}}"
+      }
+    ]
+  },
+  {
+    "name": "Sapling",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:sapling,Count:4,Damage:4}}"
+      }
+    ]
+  },
+  {
+    "name": "Sapling",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:sapling,Count:4,Damage:5}}"
+      }
+    ]
+  },
+  {
+    "name": "Skull",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:skull,Count:1,Damage:0}}"
+      }
+    ]
+  },
+  {
+    "name": "Skull",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:skull,Count:1,Damage:1}}"
+      }
+    ]
+  },
+  {
+    "name": "Skull",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:skull,Count:1,Damage:2}}"
+      }
+    ]
+  },
+  {
+    "name": "Skull",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:skull,Count:1,Damage:3}}"
+      }
+    ]
+  },
+  {
+    "name": "Skull",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:skull,Count:1,Damage:4}}"
       }
     ]
   },
@@ -94,7 +389,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:diamond,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:bed,Count:1}}"
       }
     ]
   },
@@ -103,7 +398,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:iron_ingot,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:coal,Count:8}}"
       }
     ]
   },
@@ -112,7 +407,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:gold_ingot,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:diamond,Count:8}}"
       }
     ]
   },
@@ -121,7 +416,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:gunpowder,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:iron_ingot,Count:8}}"
       }
     ]
   },
@@ -130,7 +425,16 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:flint,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:gold_ingot,Count:8}}"
+      }
+    ]
+  },
+  {
+    "name": "Random Loot",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:gunpowder,Count:8}}"
       }
     ]
   },
@@ -148,6 +452,15 @@
     "events": [
       {
         "delay": 0,
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:glowstone_dust,Count:8}}"
+      }
+    ]
+  },
+  {
+    "name": "Random Loot",
+    "events": [
+      {
+        "delay": 0,
         "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:dye,Count:8,Damage:4}}"
       }
     ]
@@ -157,7 +470,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:bone,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:bone,Count:4}}"
       }
     ]
   },
@@ -166,7 +479,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:gold_nugget,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:emerald,Count:8}}"
       }
     ]
   },
@@ -175,16 +488,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:emerald,Count:1}}"
-      }
-    ]
-  },
-  {
-    "name": "Random Loot",
-    "events": [
-      {
-        "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:quartz,Count:4}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:quartz,Count:8}}"
       }
     ]
   },
@@ -216,6 +520,15 @@
     ]
   },
   {
+    "name": "Pie Flavored Pie",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:pumpkin_pie,Count:1,tag:{display:{Name:Pie Flavored Pie}}}}"
+      }
+    ]
+  },
+  {
     "name": "Wall Chicken",
     "events": [
       {
@@ -229,7 +542,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:rotten_flesh,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:rotten_flesh,Count:64}}"
       }
     ]
   },
@@ -238,7 +551,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:ender_pearl,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:ender_pearl,Count:4}}"
       }
     ]
   },
@@ -247,7 +560,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:blaze_rod,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:blaze_rod,Count:4}}"
       }
     ]
   },
@@ -256,7 +569,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:ghast_tear,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:ghast_tear,Count:4}}"
       }
     ]
   },
@@ -265,7 +578,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:nether_wart,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:nether_wart,Count:8}}"
       }
     ]
   },
@@ -274,7 +587,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:spider_eye,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:spider_eye,Count:4}}"
       }
     ]
   },
@@ -283,7 +596,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:blaze_powder,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:blaze_powder,Count:8}}"
       }
     ]
   },
@@ -301,7 +614,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:speckled_melon,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:speckled_melon,Count:8}}"
       }
     ]
   },
@@ -319,7 +632,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:golden_carrot,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:golden_carrot,Count:8}}"
       }
     ]
   },
@@ -328,7 +641,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:carrot,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:carrot,Count:8}}"
       }
     ]
   },
@@ -337,7 +650,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:potato,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:potato,Count:8}}"
       }
     ]
   },
@@ -355,7 +668,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:sugar,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:prismarine_shard,Count:8}}"
       }
     ]
   },
@@ -364,16 +677,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:prismarine_shard,Count:1}}"
-      }
-    ]
-  },
-  {
-    "name": "Random Loot",
-    "events": [
-      {
-        "delay": 0,
-        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:prismarine_crystals,Count:1}}"
+        "command": "/summon Item ~ ~ ~ {Item:{id:minecraft:prismarine_crystals,Count:8}}"
       }
     ]
   },
@@ -504,6 +808,15 @@
     ]
   },
   {
+    "name": "Cave Spider Spawner",
+    "events": [
+      {
+        "delay": 0,
+        "command": "/setblock ~ ~ ~ minecraft:mob_spawner 0 replace {EntityId:CaveSpider}"
+      }
+    ]
+  },
+  {
     "name": "Water",
     "events": [
       {
@@ -572,15 +885,6 @@
       {
         "delay": 0,
         "command": "/tellraw VAR_NAME {text:\"\u003cHerobrine\u003e I wonder how fast you can run VAR_NAME?\"}"
-      }
-    ]
-  },
-  {
-    "name": "Creepy Sounds",
-    "events": [
-      {
-        "delay": 0,
-        "command": "/playsound ambient.cave.cave VAR_NAME ~ ~ ~ 1.0 0.01"
       }
     ]
   },
@@ -688,7 +992,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/setblock ~ ~ ~ minecraft:mob_spawner 0 replace {EntityId:ThrownPotion,SpawnData:{Riding:{id:XPOrb},Potion:{id:373,Damage:8228,Count:1}},SpawnCount:3,SpawnRange:16,RequiredPlayerRange:24,MinSpawnDelay:20,MaxSpawnDelay:20,MaxNearbyEntities:16}"
+        "command": "/setblock ~ ~ ~ minecraft:mob_spawner 0 replace {EntityId:ThrownPotion,SpawnData:{Riding:{id:XPOrb},Potion:{id:373,Damage:8228,Count:1}},SpawnCount:1,SpawnRange:16,RequiredPlayerRange:16,MinSpawnDelay:20,MaxSpawnDelay:20,MaxNearbyEntities:8}"
       }
     ]
   },
