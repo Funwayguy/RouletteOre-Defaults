@@ -236,7 +236,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/setblock ~ ~ ~ minecraft:dragon_block"
+        "command": "/setblock ~ ~ ~ minecraft:dragon_egg"
       }
     ]
   },
