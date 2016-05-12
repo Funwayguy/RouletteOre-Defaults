@@ -852,7 +852,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/setblock ~ ~ ~ minecraft:mob_spawner 0 replace {SpawnData:{id:Zombie}}"
+        "command": "/setblock ~ ~ ~ minecraft:mob_spawner 0 replace {SpawnData:{id:Zombie},SpawnCount:8,SpawnRange:8,maxNearbyEntities:8,Delay:10,MinSpawnDelay:20,MaxSpawnDelay:60}"
       }
     ]
   },
@@ -861,7 +861,7 @@
     "events": [
       {
         "delay": 0,
-        "command": "/setblock ~ ~ ~ minecraft:mob_spawner 0 replace {SpawnData:{id:CaveSpider}}"
+        "command": "/setblock ~ ~ ~ minecraft:mob_spawner 0 replace {SpawnData:{id:CaveSpider},SpawnCount:8,SpawnRange:8,maxNearbyEntities:8,Delay:10,MinSpawnDelay:20,MaxSpawnDelay:60}"
       }
     ]
   },
